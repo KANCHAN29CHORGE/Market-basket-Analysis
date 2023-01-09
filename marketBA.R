@@ -1,8 +1,13 @@
+# Market Basket Analysis is part of machine learning used for data mining. It is used by large retailers to uncover associations between items. 
+# It works by looking for combinations of items that occur together frequently in transactions using association rules. 
+# Association rule learning is a rule-based machine learning method for discovering interesting relations between variables in large databases. 
+# Association rules are primarily used to find analytics and a prediction of customer behaviour
+
+
 data=read.csv(file.choose(),header = T, colClasses = "factor")
 head(data)
 colnames(data)
 
-View(data)
 install.packages("arules")
 install.packages("arulesViz")
 library(arules)
